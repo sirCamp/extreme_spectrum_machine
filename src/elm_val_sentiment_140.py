@@ -150,7 +150,6 @@ for file in files:
     Ep_tr, d = to_matrix(Ep_tr)
     Ep_te, _ = to_matrix(Ep_te, d)
 
-
     internal_accuracies = []
     times = []
     w = np.copy(best_w)
